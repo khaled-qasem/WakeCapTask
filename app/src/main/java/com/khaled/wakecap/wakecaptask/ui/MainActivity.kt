@@ -44,7 +44,6 @@ class MainActivity : AppCompatActivity(), Injectable {
 
     }
 
-
     private fun initViewPager(roles: List<String>) {
         val workersPagerAdapter = WorkersPagerAdapter(supportFragmentManager, roles)
         with(binding) {
