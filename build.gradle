@@ -25,3 +25,12 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    supportVersion = '1.0.0'
+    daggerVersion = '2.16'
+    retrofitVersion = '2.4.0'
+    lifecycleVersion = '2.0.0'
+    ktxVersion = '1.0.1'
+    ktxFragmentVersion = '1.0.0'
+}
