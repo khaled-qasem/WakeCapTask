@@ -1,6 +1,6 @@
 package com.khaled.wakecap.wakecaptask.di
 
-import com.khaled.wakecap.wakecaptask.MainActivity
+import com.khaled.wakecap.wakecaptask.ui.MainActivity
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 
